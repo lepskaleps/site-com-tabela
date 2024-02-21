@@ -18,6 +18,16 @@
 
 table {
     border-collapse: collapse;
+    margin: 18px 6px;
+}
+
+caption {
+    text-transform: inherit;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(160, 246, 252);
 }
 
 th, td {
@@ -27,16 +37,15 @@ th, td {
 }
 
 div {
-    background-color: white;
-}
-
-img {
-  margin: 20px 200px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  body {
     background-color: var(--cor03);
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -48,6 +57,7 @@ header {
     color: var(--cor04);
     box-shadow: 2px 2px  6px rgba(0, 0, 0, 0.747);
 }
+
 
 h1 {
     font-family: var(--font01);
@@ -81,11 +91,12 @@ a {
 }
 
 a.paginas {
-    display: block;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
     text-decoration: none;
     color: var(--cor05);
-    text-align: right;
-    padding-right: 10px;
 }
 
 a:hover {
@@ -97,20 +108,46 @@ abbr {
     text-decoration: none;
 }
 
+main {
+    position: relative;
+    min-height: 76.9vh;
+}
+
 abbr:hover {
     color: var(--cor04);
     transition-duration: 9ms;
 }
 
+#wrap {
+    padding-bottom: 2.5rem;
+}
+
 footer {
-    background-color: black;
+    background-color: var(--cor01);
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer > p {
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 footer > p > a {
     color: white;
+}
+
+
+#tr1 {
+    background-color: rgb(252, 58, 58);
+}
+#tr2 {
+    background-color: rgb(255, 166, 0);
+}
+#tr3 {
+    background-color: yellow;
+}
+#tr4 {
+    background-color: rgb(159, 243, 34);
 }
