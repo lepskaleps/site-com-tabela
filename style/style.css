@@ -91,7 +91,6 @@ a {
 }
 
 a.paginas {
-    background-color: white;
     display: flex;
     justify-content: right;
     padding-right: 10px;
